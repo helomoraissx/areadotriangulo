@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+     real area, base, altura
+
+  escreva("qual a base do seu triangulo: ")
+  leia(base)
+  
+  escreva("qual a altura do seu triangulo: ")
+  leia(altura)
+  
+  area = ((base * altura)/2)
+
+ escreva("A area do seu triangulo e: ", area) 
+  }
+}
